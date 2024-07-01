@@ -1,0 +1,12 @@
+[window]
+opacity = 0.9
+blur = true
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font Mono", style="Regular" }
+size = 13
+offset = { y = 1 }
+
+[bell]
+duration = 100
+

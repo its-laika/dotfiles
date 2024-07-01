@@ -4,8 +4,8 @@
 
 - `zsh`
   - [Starship](https://starship.rs/)
+- `alacritty`
 - `hyprland`
-  - `kitty`
   - `waybar`
 
 ## Dependencies
