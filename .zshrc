@@ -12,8 +12,9 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 ### Rust / Cargo
 . "$HOME/.cargo/env"
 
-### ALIASES
+### zsh
 alias l="ls -lisah"
+setopt auto_cd
 
 [ -f "$HOME/.banner" ] && clear && cat "$HOME/.banner"
 
