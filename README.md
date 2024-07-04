@@ -24,7 +24,7 @@
 - `catppuccin.catppuccin-vsc`
 - `catppuccin.catppuccin-vsc-icons`
 - `k--kato.intellij-idea-keybindings`
-- `rust-lang.rust`
+- `rust-lang.rust-analyzer`
 - `redhat.vscode-yaml`
 - `tamasfe.even-better-toml`
 - `serayuzgur.crates`
