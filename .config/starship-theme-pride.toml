@@ -1,0 +1,52 @@
+format = """
+[](color_white)\
+[](fg:color_white bg:color_pink)\
+[](fg:color_pink bg:color_aqua)\
+[](fg:color_aqua bg:color_brown)\
+[](fg:color_brown bg:color_black)\
+[](fg:color_black bg:color_red)\
+$os\
+$username\
+[](fg:color_red bg:color_orange)\
+$hostname\
+[](fg:color_orange bg:color_yellow)\
+$directory\
+[](bg:color_green fg:color_yellow)\
+$git_branch\
+[](bg:color_blue fg:color_green)\
+$rust\
+$dotnet\
+$nodejs\
+$php\
+[](fg:color_blue bg:color_purple)\
+$time\
+[ ](fg:color_purple)\
+$line_break\
+$character"""
+
+palette = 'pride'
+
+[palettes.pride]
+color_text_light = '#fbf1c7'
+color_background_dark = '#665c54'
+color_background_darker = '#3c3836'
+color_blue = '#004cff'
+color_aqua = '#73d7ee'
+color_green = '#16b700'
+color_orange = '#f58a05'
+color_purple = '#6a2075'
+color_red = '#ff1c1c'
+color_yellow = '#fbf700'
+color_white = '#ffffff'
+color_pink = '#ffafc7'
+color_brown = '#613915'
+color_black = '#000000'
+
+[git_branch]
+symbol = ""
+style = "bg:color_green"
+format = '[[ $symbol $branch ](fg:color_text_light bg:color_green)]($style)'
+
+[git_status]
+style = "bg:color_green"
+format = '[[($all_status$ahead_behind )](fg:color_text_light bg:color_green)]($style)'
