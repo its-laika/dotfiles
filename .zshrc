@@ -15,6 +15,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 ### zsh
 alias l="ls -lisah"
 setopt auto_cd
+alias scp="rsync -a -v "
 
 [ -f "$HOME/.banner" ] && clear && cat "$HOME/.banner"
 
