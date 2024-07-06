@@ -7,6 +7,7 @@
 - `alacritty`
 - `hyprland`
   - `waybar`
+  - `hyprpaper`
 
 ## Dependencies
 
@@ -14,11 +15,12 @@
 - `thunar`
 - `tofi` (AUR)
 
-### `kitty`, `waybar`
+### `alacritty`, `waybar`
 - Configured to use [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
 
 ### `waybar`
 - Configured to work with `pipewire` (instead of PulseAudio)
+- Configured to use Ubuntu font
 
 ### Visual Studio Code (Plugins)
 - `catppuccin.catppuccin-vsc`
