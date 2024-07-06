@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"position": "top",
-	"height": 20,
+	"height": 30,
 	"modules-left": [
 		"hyprland/workspaces",
 		"custom/arrow10",
@@ -38,7 +38,7 @@
 
 	"clock#date": {
 		"interval": 20,
-		"format": "{:%e %b %Y}",
+		"format": "{:%e %B %Y}",
 		"tooltip": false,
 		"timezone": "Europe/Berlin",
 		"locale": "de_DE.UTF-8"

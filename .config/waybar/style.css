@@ -62,7 +62,7 @@
 #waybar {
 	background: rgba(40, 40, 40, 0.8784313725); /* #282828e0 */
 	color: @white;
-	font-family: CaskaydiaCove Nerd Font Mono, Siji;
+	font-family: Ubuntu, CaskaydiaCove Nerd Font Mono, Siji;
 	font-size: 10pt;
 	/*font-weight: bold;*/
 }
@@ -120,8 +120,8 @@
 /* Workspaces stuff */
 #workspaces button {
 	/*font-weight: bold;*/
-	padding-left: 2pt;
-	padding-right: 2pt;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: @white;
 	background: @unfocused;
 }
@@ -152,12 +152,14 @@
 
 #window {
 	margin-right: 35pt;
-	margin-left: 35pt;
+	margin-left: 10px;
 }
 
 #wireplumber {
 	background: @sound;
 	color: @black;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #network {
@@ -205,61 +207,61 @@
 }
 
 #custom-arrow1 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @time;
 	background: @date;
 }
 
 #custom-arrow2 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @date;
 	background: @layout;
 }
 
 #custom-arrow3 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @layout;
 	background: @battery;
 }
 
 #custom-arrow4 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @battery;
 	background: @temp;
 }
 
 #custom-arrow5 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @temp;
 	background: @cpu;
 }
 
 #custom-arrow6 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @cpu;
 	background: @memory;
 }
 
 #custom-arrow7 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @memory;
 	background: @network;
 }
 
 #custom-arrow8 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @network;
 	background: @sound;
 }
 
 #custom-arrow9 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @sound;
 	background: transparent;
 }
 
 #custom-arrow10 {
-	font-size: 11pt;
+	font-size: 30px;
 	color: @unfocused;
 	background: transparent;
 }
