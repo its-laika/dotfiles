@@ -12,7 +12,7 @@
 ## Dependencies
 
 ### `hyprland`
-- `thunar`
+- `nautilus`
 - `tofi` (AUR)
 
 ### `alacritty`, `waybar`

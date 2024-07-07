@@ -1,9 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-### apas_75 theme start ###
-
 format = """
-[](color_red)\
+[](color_red)\
 $os\
 $username\
 [](fg:color_red bg:color_orange)\
@@ -20,8 +18,6 @@ $php\
 [](fg:color_blue bg:color_background_dark)\
 [](fg:color_background_dark bg:color_background_darker)\
 $time\
-[ ](fg:color_background_darker)\
-$line_break\
 $character"""
 
 palette = 'gruvbox_dark'
@@ -46,8 +42,6 @@ format = '[[ $symbol $branch ](fg:color_text_light bg:color_aqua)]($style)'
 [git_status]
 style = "bg:color_aqua"
 format = '[[($all_status$ahead_behind )](fg:color_text_light bg:color_aqua)]($style)'
-
-### apas_75 theme end ###
 
 [os]
 disabled = false
@@ -130,9 +124,9 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[█](bold fg:color_green)'
-error_symbol = '[█](bold fg:color_red)'
-vimcmd_symbol = '[█](bold fg:color_green)'
-vimcmd_replace_one_symbol = '[█](bold fg:color_purple)'
-vimcmd_replace_symbol = '[█](bold fg:color_purple)'
-vimcmd_visual_symbol = '[█](bold fg:color_yellow)'
+success_symbol = '[](bold fg:color_background_darker bg:color_green)[](bold fg:color_green)'
+error_symbol = '[](bold fg:color_background_darker bg:color_red)[](bold fg:color_red)'
+vimcmd_symbol = '[](bold fg:color_background_darker bg:color_green)[](bold fg:color_green)'
+vimcmd_replace_one_symbol = '[](bold fg:color_background_darker bg:color_purple)[](bold fg:color_purple)'
+vimcmd_replace_symbol = '[](bold fg:color_background_darker bg:color_purple)[](bold fg:color_purple)'
+vimcmd_visual_symbol = '[](bold fg:color_background_darker bg:color_yellow)[](bold fg:color_yellow)'
