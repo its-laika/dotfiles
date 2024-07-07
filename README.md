@@ -8,6 +8,7 @@
 - `hyprland`
   - `waybar`
   - `hyprpaper`
+  - `dunst`
 
 ## Dependencies
 
