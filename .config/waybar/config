@@ -95,7 +95,7 @@
 	"wireplumber": {
 		"format": "{icon} {volume}%",
 		"format-bluetooth": "{icon} {volume}%",
-		"format-muted": "",
+		"format-muted": " 0%",
 		"format-icons": {
 			"headphone": "",
 			"hands-free": "",
