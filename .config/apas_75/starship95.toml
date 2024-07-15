@@ -1,0 +1,83 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[ ](bg:color_red)\
+[ ](bg:color_green)\
+[ ](bg:color_yellow)\
+[ ](bg:color_blue)\
+[┃](bg:color_dark_grey fg:color_blue)\
+[┃](bg:color_dark_grey fg:color_blue)\
+[$directory ](fg:color_black bg:color_dark_grey)\
+[┃](bg:color_light_grey fg:color_lighter_grey)\
+[$git_branch](fg:color_black bg:color_lighter_grey)\
+[┃](bg:color_light_grey fg:color_lighter_grey)\
+[ ](fg:color_dark_grey bg:color_dark_grey)\
+[$rust](fg:color_black bg:color_dark_grey)\
+[$dotnet](fg:color_black bg:color_dark_grey)\
+[$nodejs](fg:color_black bg:color_dark_grey)\
+[$php](fg:color_black bg:color_dark_grey)\
+[┃](bg:color_light_grey fg:color_lighter_grey)\
+[ $time ](fg:color_black bg:color_lighter_grey)\
+[┃](bg:color_light_grey fg:color_lighter_grey)\
+$character"""
+
+palette = 'starship95'
+
+[palettes.starship95]
+color_blue = '#394dcd'
+color_green = '#208c71'
+color_red = '#e35f5f'
+color_yellow = '#dfe300'
+color_lighter_grey = '#bbbbbb'
+color_light_grey = '#aaaaaa'
+color_dark_grey = '#999999'
+color_darker_grey = '#666666'
+color_black = '#000000'
+
+[git_branch]
+symbol = ''
+format = ' $symbol $branch '
+
+[time]
+disabled = false
+time_format = '%l:%M %p'
+format = '$time'
+
+[username]
+show_always = true
+format = '$user'
+
+[hostname]
+ssh_only = false
+disabled = false
+format = "$ssh_symbol$hostname"
+
+[directory]
+format = "  $path "
+truncation_length = 3
+truncation_symbol = "C://…/"
+truncate_to_repo = true
+
+[dotnet]
+symbol = ""
+format = '$symbol( $version) \($tfm\) '
+
+[nodejs]
+symbol = ""
+format = '$symbol( $version) '
+
+[rust]
+symbol = ""
+format = '$symbol( $version) '
+
+[php]
+symbol = ""
+format = '$symbol( $version) '
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[](bold fg:color_light_grey bg:color_green)[](bold fg:color_green)'
+error_symbol = '[](bold fg:color_light_grey bg:color_red)[](bold fg:color_red)'

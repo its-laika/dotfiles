@@ -21,7 +21,7 @@
 
 ### `waybar`
 - Configured to work with `pipewire` (instead of PulseAudio)
-- Configured to use Ubuntu font
+- Configured to use fonts `noto-fonts-emoji`, `ttf-ubuntu-font-family`
 
 ### Visual Studio Code (Plugins)
 - `catppuccin.catppuccin-vsc`

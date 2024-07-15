@@ -13,6 +13,9 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 . "$HOME/.cargo/env"
 
 ### zsh
+export LC_ALL=de_DE.UTF-8
+export LANG=de_DE.UTF-8
+
 alias l="ls -lisah"
 setopt auto_cd
 alias scp="rsync -a -v "
