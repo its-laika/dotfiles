@@ -6,6 +6,8 @@
   - [Starship](https://starship.rs/)
 - `alacritty`
 - `hyprland`
+  - `hyprlock`
+  - `hypridle`
   - `waybar`
   - `hyprpaper`
   - `dunst`
