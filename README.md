@@ -33,5 +33,4 @@
 - `rust-lang.rust-analyzer`
 - `redhat.vscode-yaml`
 - `tamasfe.even-better-toml`
-- `serayuzgur.crates`
 - `vadimcn.vscode-lldb`
