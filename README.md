@@ -11,6 +11,7 @@
   - `waybar`
   - `hyprpaper`
   - `dunst`
+- [AeroSpace](https://github.com/nikitabobko/AeroSpace) (macOS)
 
 ## Dependencies
 
