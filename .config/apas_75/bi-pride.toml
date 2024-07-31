@@ -1,0 +1,121 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](fg:color_white)\
+[](fg:color_pink bg:color_white)\
+[](fg:color_aqua bg:color_pink)\
+[](fg:color_brown bg:color_aqua)\
+[](fg:color_black bg:color_brown)\
+[](fg:color_pink bg:color_black)\
+$os\
+[](fg:color_pink bg:color_pink_purple)\
+$directory\
+[](fg:color_pink_purple bg:color_purple)\
+$git_branch\
+[](fg:color_purple bg:color_purple_blue)\
+$rust\
+$dotnet\
+$nodejs\
+$php\
+[](fg:color_purple_blue bg:color_blue)\
+$time\
+[](fg:color_blue bg:color_background)\
+$character"""
+
+palette = 'bi-pride'
+
+[palettes.bi-pride]
+
+color_pink = '#D60270'
+color_pink_purple = '#AF3589'
+color_purple = '#9B4F96'
+color_purple_blue = '#4E449F'
+color_blue = '#0038A8'
+color_text = '#fbf1c7'
+color_background = '#3c3836'
+color_aqua = '#73d7ee'
+color_brown = '#603814'
+color_white = '#ffffff'
+color_black = '#000000'
+
+[git_branch]
+symbol = ""
+style = "bg:color_purple"
+format = '[[ $symbol $branch ](fg:color_text bg:color_purple)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:color_background"
+format = '[[  $time ](fg:color_text bg:color_blue)]($style)'
+
+[os]
+disabled = false
+style = "fg:color_text bg:color_pink"
+format = "[ $symbol ]($style)"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[directory]
+style = "fg:color_text bg:color_pink_purple"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[dotnet]
+symbol = ""
+style = "bg:color_purple_blue"
+format = '[[ $symbol( $version) \($tfm\)](fg:color_text bg:color_purple_blue)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:color_purple_blue"
+format = '[[ $symbol( $version) ](fg:color_text bg:color_purple_blue)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:color_purple_blue"
+format = '[[ $symbol( $version) ](fg:color_text bg:color_purple_blue)]($style)'
+
+[php]
+symbol = ""
+style = "bg:color_purple_blue"
+format = '[[ $symbol( $version) ](fg:color_text bg:color_purple_blue)]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[](bold fg:color_background bg:color_aqua)[](bold fg:color_aqua)'
+error_symbol = '[](bold fg:color_background bg:color_pink)[](bold fg:color_pink)'
+vimcmd_symbol = '[](bold fg:color_background bg:color_aqua)[](bold fg:color_aqua)'
+vimcmd_replace_one_symbol = '[](bold fg:color_background bg:color_aqua)[](bold fg:color_aqua)'
+vimcmd_replace_symbol = '[](bold fg:color_background bg:color_aqua)[](bold fg:color_aqua)'
+vimcmd_visual_symbol = '[](bold fg:color_background bg:color_aqua)[](bold fg:color_aqua)'
