@@ -25,11 +25,11 @@
 @define-color critical @aqua;
 @define-color mode @black;
 @define-color unfocused @waybar;
-@define-color focused @aqua;
-@define-color inactive @purple;
+@define-color focused @pink;
+@define-color inactive @pink;
 
 @define-color sound @background;
-@define-color network @purple;
+@define-color network @pink;
 @define-color memory @pink_purple;
 @define-color cpu @purple;
 @define-color layout @bryellow;
@@ -126,7 +126,7 @@
 
 /* Style when cursor is on the button */
 #workspaces button:hover {
-	background: @pink_purple;
+	background: @aqua;
 	color: @white;
 }
 
