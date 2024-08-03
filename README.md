@@ -11,13 +11,13 @@
   - `waybar`
   - `hyprpaper`
   - `dunst`
+  - `tofi` (AUR)
 - [AeroSpace](https://github.com/nikitabobko/AeroSpace) (macOS)
 
 ## Dependencies
 
 ### `hyprland`
 - `nautilus`
-- `tofi` (AUR)
 
 ### `alacritty`, `waybar`
 - Configured to use [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
