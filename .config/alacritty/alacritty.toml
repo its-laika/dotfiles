@@ -1,6 +1,7 @@
 [window]
-opacity = 0.8
+opacity = 0.7
 blur = true
+padding = { x = 5, y = 5 }
 
 [font]
 normal = { family = "CaskaydiaCove Nerd Font Mono", style= "Regular" }
@@ -9,4 +10,14 @@ offset = { y = 1 }
 
 [bell]
 duration = 100
+color = "#e6e5f4"
 
+[colors.primary]
+foreground = "#fad7f8"
+background = "#150417"
+
+[colors]
+selection = { text = "#150417", background = "#fca8f9" }
+
+[cursor]
+style = { shape = "Block", blinking = "Never" }
