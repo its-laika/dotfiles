@@ -9,33 +9,33 @@
 
 
 /* Styles */
-@define-color pink 		#D60270;
-@define-color pink_purple 	#AF3589;
-@define-color purple 		#9B4F96;
-@define-color purple_blue 	#4E449F;
-@define-color blue 		#0038A8;
-@define-color text 		#FBF1C7;
-@define-color background 	#3C3836;
-@define-color aqua 		#73d7EE;
-@define-color brown 		#603814;
-@define-color white 		#FFFFFF;
-@define-color black 		#000000;
+@define-color pink #D60270;
+@define-color pink_purple #AF3589;
+@define-color purple #9B4F96;
+@define-color purple_blue #4E449F;
+@define-color blue #0038A8;
+@define-color text #FBF1C7;
+@define-color background #3C3836;
+@define-color aqua #73d7EE;
+@define-color brown #603814;
+@define-color white #FFFFFF;
+@define-color black #000000;
 
-@define-color warning 	@aqua;
-@define-color critical	@aqua;
-@define-color mode	@black;
-@define-color unfocused	@waybar;
-@define-color focused	@aqua;
-@define-color inactive	@purple;
+@define-color warning @aqua;
+@define-color critical @aqua;
+@define-color mode @black;
+@define-color unfocused @waybar;
+@define-color focused @aqua;
+@define-color inactive @purple;
 
-@define-color sound	@background;
-@define-color network	@purple;
-@define-color memory	@pink_purple;
-@define-color cpu	@purple;
-@define-color layout	@bryellow;
-@define-color date	@purple_blue;
-@define-color time	@blue;
-@define-color waybar	#282828;
+@define-color sound @background;
+@define-color network @purple;
+@define-color memory @pink_purple;
+@define-color cpu @purple;
+@define-color layout @bryellow;
+@define-color date @purple_blue;
+@define-color time @blue;
+@define-color waybar #282828;
 
 /* Reset all styles */
 * {
@@ -66,8 +66,7 @@
 #network,
 #pulseaudio,
 #tray,
-#idle_inhibitor
- {
+#idle_inhibitor {
 	padding-left: 8pt;
 	padding-right: 8pt;
 }
@@ -75,8 +74,7 @@
 /* Each critical module */
 #mode,
 #memory.critical,
-#cpu.critical
-{
+#cpu.critical {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
@@ -87,8 +85,7 @@
 /* Each warning */
 #network.disconnected,
 #memory.warning,
-#cpu.warning
-{
+#cpu.warning {
 	color: @warning;
 }
 
@@ -202,11 +199,5 @@
 #custom-arrow6 {
 	font-size: 30px;
 	color: @sound;
-	background: @waybar;
-}
-
-#custom-arrow7 {
-	font-size: 30px;
-	color: @purple;
 	background: @waybar;
 }

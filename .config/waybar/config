@@ -26,9 +26,8 @@
 		"format": "{:%H:%M}",
 		"tooltip": false,
 		"timezone": "Europe/Berlin",
-        	"locale": "de_DE.UTF-8"
+		"locale": "de_DE.UTF-8"
 	},
-
 	"clock#date": {
 		"interval": 20,
 		"format": "{:%e %B %Y}",
@@ -80,7 +79,10 @@
 			"phone": "",
 			"portable": "",
 			"car": "",
-			"default": ["", ""]
+			"default": [
+				"",
+				""
+			]
 		},
 		"scroll-step": 1,
 		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
@@ -111,10 +113,6 @@
 	},
 	"custom/arrow6": {
 		"format": "",
-		"tooltip": false
-	},
-	"custom/arrow7": {
-		"format": "",
 		"tooltip": false
 	}
 }
