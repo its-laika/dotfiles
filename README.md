@@ -2,7 +2,7 @@
 
 ## Programs
 
-- `zsh`
+- `zsh` / `fish`
   - [Starship](https://starship.rs/)
 - `alacritty`
 - `hyprland`
@@ -24,7 +24,7 @@
 
 ### `waybar`
 - Configured to work with `pipewire` (instead of PulseAudio)
-- Configured to use fonts `noto-fonts-emoji`, `ttf-ubuntu-font-family`
+- Configured to use fonts `ttf-ubuntu-font-family`
 
 ### Visual Studio Code (Plugins)
 - `catppuccin.catppuccin-vsc`
