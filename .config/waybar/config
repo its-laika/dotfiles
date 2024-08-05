@@ -7,6 +7,7 @@
 		"custom/arrow7"
 	],
 	"modules-right": [
+		"tray",
 		"custom/arrow6",
 		"wireplumber",
 		"custom/arrow5",
@@ -16,7 +17,6 @@
 		"custom/arrow3",
 		"cpu",
 		"custom/arrow2",
-		"tray",
 		"clock#date",
 		"custom/arrow1",
 		"clock#time"
