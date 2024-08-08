@@ -1,0 +1,17 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Curly
+	email = 36010519+neon-JS@users.noreply.github.com
+[core]
+	editor = vim
+	autocrlf = input
+[advice]
+	detachedHead = false
+[alias]
+	recent = "!f() { count=${1-10}; git for-each-ref --count=$count --sort=-committerdate refs/heads --format='%(HEAD)%(color:yellow)%(refname:short)|%(color:bold green)%(committerdate:relative)|%(color:blue)%(subject)|%(color:magenta)%(authorname)%(color:reset)' --color=always|column -ts'|'; }; f"
+	current = "branch --show-current"
+	fresh = "!f() { git stash; if [ -n "$1" ]; then git fetch; git checkout "$1"; fi; git pull --rebase; }; f"
+	markdown-log="log --format='**%s**%n%n%b%n----%n' --reverse"
+[push]
+	autoSetupRemote = true
