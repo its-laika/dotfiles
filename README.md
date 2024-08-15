@@ -2,35 +2,36 @@
 
 ## Programs
 
-- `zsh` / `fish`
-  - [Starship](https://starship.rs/)
-- `alacritty`
-- `hyprland`
-  - `hyprlock`
-  - `hypridle`
-  - `waybar`
-  - `hyprpaper`
-  - `dunst`
-  - `tofi` (AUR)
-- [AeroSpace](https://github.com/nikitabobko/AeroSpace) (macOS)
+- [`alacritty`](.config/alacritty/)
+  - [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
+- [`apas_75`](.config/apas_75/)
+- [`fish`](.config/fish/)
+- [`gimp`](.config/GIMP/)
+- [`git`](.gitconfig)
+- [Starship](./.config/starship.toml)
+- [_Visual Studio Code_](.config/Code%20-%20OSS/)
+  - `catppuccin.catppuccin-vsc`
+  - `catppuccin.catppuccin-vsc-icons`
+  - `k--kato.intellij-idea-keybindings`
+  - `redhat.vscode-yaml`
+  - `rust-lang.rust-analyzer`
+  - `tamasfe.even-better-toml`
+  - `vadimcn.vscode-lldb`
+- [`zsh`](.zshrc)
 
-## Dependencies
-
-### `hyprland`
+### Arch only
+- [`dunst`](.config/dunst/)
+- [`hypridle`](.config/hypr/hypridle.conf)
+- [`hyprland`](.config/hypr/hyprland.conf)
+  - `catppuccin-gtk-theme-mocha` (AUR)
+- [`hyprlock`](.config/hypr/hyprlock.conf)
+- [`hyprpaper`](.config/hypr/hyprpaper.conf)
 - `nautilus`
+- `pipewire`
+- [`tofi`](.config/tofi/) (AUR)
+- [`waybar`](.config/waybar/)
+  - [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
+  - `ttf-ubuntu-font-family`
 
-### `alacritty`, `waybar`
-- Configured to use [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
-
-### `waybar`
-- Configured to work with `pipewire` (instead of PulseAudio)
-- Configured to use fonts `ttf-ubuntu-font-family`
-
-### Visual Studio Code (Plugins)
-- `catppuccin.catppuccin-vsc`
-- `catppuccin.catppuccin-vsc-icons`
-- `k--kato.intellij-idea-keybindings`
-- `rust-lang.rust-analyzer`
-- `redhat.vscode-yaml`
-- `tamasfe.even-better-toml`
-- `vadimcn.vscode-lldb`
+### macOS only
+- [AeroSpace](.aerospace.toml)
