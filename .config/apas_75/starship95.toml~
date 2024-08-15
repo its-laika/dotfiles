@@ -60,7 +60,7 @@ truncate_to_repo = true
 
 [dotnet]
 symbol = ""
-format = '$symbol( $version) \($tfm\) '
+format = '$symbol( $version) '
 
 [nodejs]
 symbol = ""

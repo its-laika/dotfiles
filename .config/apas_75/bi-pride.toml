@@ -91,7 +91,7 @@ truncation_symbol = "…/"
 [dotnet]
 symbol = ""
 style = "bg:color_purple_blue"
-format = '[[ $symbol( $version) \($tfm\)](fg:color_text bg:color_purple_blue)]($style)'
+format = '[[ $symbol( $version) ](fg:color_text bg:color_purple_blue)]($style)'
 
 [nodejs]
 symbol = ""
