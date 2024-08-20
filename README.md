@@ -21,6 +21,7 @@
 
 ### Arch only
 - [`dunst`](.config/dunst/)
+- `grim`
 - [`hypridle`](.config/hypr/hypridle.conf)
 - [`hyprland`](.config/hypr/hyprland.conf)
   - `catppuccin-gtk-theme-mocha` (AUR)
