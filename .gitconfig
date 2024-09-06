@@ -1,8 +1,8 @@
 [init]
 	defaultBranch = main
 [user]
-	name = Curly
-	email = 36010519+neon-JS@users.noreply.github.com
+	name = Laika
+	email = 36010519+its-laika@users.noreply.github.com
 [core]
 	editor = vim
 	autocrlf = input

@@ -26,5 +26,10 @@ if test -f "$HOME/.banner"
     cat "$HOME/.banner"
 end
 
+if test -d "$HOME/.dotnet"
+    set -Ux DOTNET_ROOT "$HOME/.dotnet"
+    fish_add_path -a "$HOME/.dotnet"
+end
+
 ### Starship
 starship init fish | source
