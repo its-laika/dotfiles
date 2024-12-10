@@ -53,7 +53,7 @@
 #waybar {
 	background: @waybar;
 	color: @white;
-	font-family: Ubuntu, CaskaydiaCove Nerd Font Mono, Siji;
+	font-family: Ubuntu, CaskaydiaCove Nerd Font Propo, Siji;
 	font-size: 10pt;
 	font-weight: 600;
 }
