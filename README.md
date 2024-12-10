@@ -4,7 +4,6 @@
 
 - [`alacritty`](.config/alacritty/)
   - [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
-- [`apas_75`](.config/apas_75/)
 - [`fish`](.config/fish/)
 - [`gimp`](.config/GIMP/)
 - [`git`](.gitconfig)
@@ -20,13 +19,14 @@
   - `rust-lang.rust-analyzer`
   - `redhat.vscode-yaml`
   - `vscodevim.vim`
-
-### Arch only
 - [`dunst`](.config/dunst/)
-- `grim`
+  - `ttf-ubuntu-font-family`
 - [`hypridle`](.config/hypr/hypridle.conf)
 - [`hyprland`](.config/hypr/hyprland.conf)
-  - `catppuccin-gtk-theme-mocha` (AUR)
+  - `gnome-themes-extra`
+  - `adwaita-qt5-git` (AUR) 
+  - `adwaita-qt6-git` (AUR)
+    - `ttf-ubuntu-font-family`
 - [`hyprlock`](.config/hypr/hyprlock.conf)
 - [`hyprpaper`](.config/hypr/hyprpaper.conf)
 - `nautilus`
@@ -35,6 +35,3 @@
 - [`waybar`](.config/waybar/)
   - [CaskaydiaCove Nerd Font Mono](https://www.nerdfonts.com/font-downloads)
   - `ttf-ubuntu-font-family`
-
-### macOS only
-- [AeroSpace](.aerospace.toml)
