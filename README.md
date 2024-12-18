@@ -10,14 +10,16 @@
 - [`git`](.gitconfig)
 - [Starship](./.config/starship.toml)
 - [_Visual Studio Code_](.config/Code%20-%20OSS/)
+  - `ms-dotnettools.csdevkit`
   - `catppuccin.catppuccin-vsc`
   - `catppuccin.catppuccin-vsc-icons`
-  - `k--kato.intellij-idea-keybindings`
-  - `redhat.vscode-yaml`
-  - `rust-lang.rust-analyzer`
-  - `tamasfe.even-better-toml`
   - `vadimcn.vscode-lldb`
-- [`zsh`](.zshrc)
+  - `barbosshack.crates-io`
+  - `tamasfe.even-better-toml`
+  - `k--kato.intellij-idea-keybindings`
+  - `rust-lang.rust-analyzer`
+  - `redhat.vscode-yaml`
+  - `vscodevim.vim`
 
 ### Arch only
 - [`dunst`](.config/dunst/)

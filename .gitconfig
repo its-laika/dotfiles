@@ -3,6 +3,7 @@
 [user]
 	name = Laika
 	email = 36010519+its-laika@users.noreply.github.com
+	signingkey = ...
 [core]
 	editor = vim
 	autocrlf = input
@@ -15,3 +16,5 @@
 	markdown-log="log --format='**%s**%n%n%b%n----%n' --reverse"
 [push]
 	autoSetupRemote = true
+[gpg]
+	format = ssh

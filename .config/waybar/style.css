@@ -53,7 +53,7 @@
 #waybar {
 	background: @waybar;
 	color: @white;
-	font-family: Ubuntu, CaskaydiaCove Nerd Font Mono, Siji;
+	font-family: Ubuntu, CaskaydiaCove Nerd Font Propo, Siji;
 	font-size: 10pt;
 	font-weight: 600;
 }
@@ -62,6 +62,7 @@
 #clock,
 #cpu,
 #memory,
+#battery,
 #mode,
 #network,
 #pulseaudio,
@@ -71,7 +72,6 @@
 	padding-right: 8pt;
 }
 
-/* Each critical module (disabled)
 #mode,
 #memory.critical,
 #cpu.critical {
@@ -81,15 +81,13 @@
 	animation-name: blink-critical;
 	animation-duration: 1s;
 }
-*/
 
-/* Each warning (disabled)
 #network.disconnected,
 #memory.warning,
 #cpu.warning {
 	color: @warning;
 }
-*/
+
 
 /* And now modules themselves in their respective order */
 
@@ -101,9 +99,8 @@
 
 /* Workspaces stuff */
 #workspaces button {
-	/*font-weight: bold;*/
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color: @white;
 	background: @unfocused;
 }
@@ -144,11 +141,12 @@
 	color: @white;
 }
 
-#memory {
+#battery {
 	background: @memory;
 	color: @white;
 }
 
+#memory,
 #cpu {
 	background: @cpu;
 	color: @white;
@@ -169,37 +167,37 @@
 }
 
 #custom-arrow1 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @time;
 	background: @date;
 }
 
 #custom-arrow2 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @date;
 	background: @cpu;
 }
 
 #custom-arrow3 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @cpu;
 	background: @memory;
 }
 
 #custom-arrow4 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @memory;
 	background: @network;
 }
 
 #custom-arrow5 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @network;
 	background: @sound;
 }
 
 #custom-arrow6 {
-	font-size: 30px;
+	font-size: 20px;
 	color: @sound;
 	background: @waybar;
 }
