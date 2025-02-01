@@ -29,6 +29,8 @@ if test -d "$HOME/.cargo/bin"
     fish_add_path -a "$HOME/.cargo/bin"
 end
 
+set -Ux CARGO_MOMMYS_MOODS "chill/thirsty/yikes"
+
 # Rancher desktop
 if test -d "$HOME/.rd/bin"
     set --export --prepend PATH "$HOME/.rd/bin"
@@ -36,7 +38,7 @@ end
 
 ### fish
 abbr -a l ls -lisah
-abbr -a scp rsync -a -v
+abbr -a scp rsync -a -v --stats --progress
 
 if test -f "$HOME/.banner"
     clear

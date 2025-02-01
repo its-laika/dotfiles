@@ -14,6 +14,8 @@
 	current = "branch --show-current"
 	fresh = "!f() { git stash; if [ -n "$1" ]; then git fetch; git checkout "$1"; fi; git pull --rebase; }; f"
 	markdown-log="log --format='**%s**%n%n%b%n----%n' --reverse"
+	push-all = "!f() { for remote in `git remote`; do printf "$remote: "; git push " $remote $(git branch --show-current) ${@:2}"; done; }; f"
+	pull-all = "!f() { for remote in `git remote`; do git pull " $remote $(git branch --show-current) ${@:2}"; done; }; f"
 [push]
 	autoSetupRemote = true
 [gpg]
